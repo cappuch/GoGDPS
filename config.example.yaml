@@ -1,0 +1,53 @@
+server:
+  addr: ":8080"
+
+database:
+  host: "127.0.0.1"
+  port: 3306
+  user: "root"
+  password: ""
+  name: "geometrydash"
+  fallback: auto  # auto | mysql | jsonl
+
+security:
+  session_grants: true
+  unregistered_submissions: false
+  preactivate_accounts: true
+  captcha:
+    enabled: false
+    site_key: ""
+    secret: ""
+
+paths:
+  data_dir: "./data"
+  dashboard_dir: "./dashboard"
+
+reupload:
+  user_id: 71
+  account_id: 71
+
+chests:
+  chest1_min_orbs: 200
+  chest1_max_orbs: 400
+  chest1_min_diamonds: 2
+  chest1_max_diamonds: 10
+  chest1_items: [1, 2, 3, 4, 5, 6, 10, 11, 12, 13, 14]
+  chest1_min_keys: 1
+  chest1_max_keys: 6
+  chest2_min_orbs: 2000
+  chest2_max_orbs: 4000
+  chest2_min_diamonds: 20
+  chest2_max_diamonds: 100
+  chest2_items: [1, 2, 3, 4, 5, 6, 10, 11, 12, 13, 14]
+  chest2_min_keys: 1
+  chest2_max_keys: 6
+  chest1_wait: 3600
+  chest2_wait: 14400
+
+top_artists:
+  redirect: false
+
+discord:
+  enabled: false
+  bot_token: ""
+  secret: ""

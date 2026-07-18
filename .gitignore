@@ -1,46 +1,29 @@
-# Windows image file caches
+# Build / config
+config.yaml
+gogdps
+
+# OS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
 Thumbs.db
 ehthumbs.db
-
-# Folder config file
 Desktop.ini
-
-# Recycle Bin used on file shares
 $RECYCLE.BIN/
+*.lnk
 
-# Windows Installer files
+# Windows installers
 *.cab
 *.msi
 *.msm
 *.msp
 
-# Windows shortcuts
-*.lnk
-
-# =========================
-# Operating System Files
-# =========================
-
-# OSX
-# =========================
-
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Thumbnails
-._*
-
-# Files that might appear on external disk
-.Spotlight-V100
-.Trashes
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
-incl/lib/debug.php
-dashboard/incl/lang/dev/append.php
-dashboard/incl/lang/dev/append.txt
+# Runtime data (keep structure, ignore contents)
+data/levels/*
+!data/levels/.gitkeep
+data/accounts/*
+!data/accounts/.gitkeep
+data/accounts/keys/*
+!data/accounts/keys/.gitkeep
+data/logs/*
